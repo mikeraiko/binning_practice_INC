@@ -5,7 +5,12 @@
 
 ## Сперва настроим рабочее окружение
 
-
+```
+conda create -n binning python=3.8
+conda activate binning
+conda config --env --set subdir osx-64 # только если у вас Мак с процессором M1/2/3
+mamba install -c bioconda spades maxbin2 checkm2
+```
 
 ## Теперь загрузим исходные данные
 Сохраняем их в папку *data*. 
@@ -30,9 +35,45 @@ cd ..
 
 Что вы думаете о нашем образце?
 
+## Сборка
+Это этап мы тоже, скорее всего, пропустим, так как SPAdes часто требует больше памяти, чем есть на ноутбуках. Но вы можете попытаться.
+```
+spades.py --meta -1 data/tara_reads_R1.fastq.gz -2 data/tara_reads_R2.fastq.gz  -o metaspades_out
+```
 
+## Биннинг
 
+А теперь нам нужно разделить всю эту гору контигов на отдельные бины
 
+Получим средние значения покрытия для каждого контига
+```
+grep ">" metaspades_out/scaffolds.fasta  | cut -f 2 -d ">" > names.txt
+grep ">" metaspades_out/scaffolds.fasta  | cut -f 6 -d "_" > cov.txt
+paste names.txt cov.txt > abund.txt
+```
+
+А теперь запустим биннер:
+
+```
+mkdir maxbin_output
+cd maxbin_output
+run_MaxBin.pl -contig ../metaspades_out/scaffolds.fasta  -abund ../abund.txt -out maxbin -min_contig_length 500 
+cd ..
+```
+Сколько бинов у нас получилось?
+
+## Проверка бинов на полноту и таксономическое положение
+
+Общая характеристика бинов
+```
+checkm lineage_wf  maxbin_output -x fasta checkm_output
+```
+
+Определение рРНК
+
+```
+checkm ssu_finder metaspades_out/scaffolds.fasta  maxbin_output/ ssu_finder_out  -x fasta 
+```
 
 
 
