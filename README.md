@@ -22,7 +22,7 @@ cd ..
 Этот этап воспроизводить не нужно, так как эти программы требуют очень больших баз.
 Так что просто представьте, что мы запустили команду 
 ```
-~/Libs/kraken2/kraken2/kraken2 --db  /path/to/kraken2_db/  --report kraken/kraken.report --output kraken/kraken.out data/*.fastq.gz 
+~/Libs/kraken2/kraken2/kraken2 --db  /path/to/kraken2_db/  --report kraken_results/kraken.report --output kraken_results/kraken.out data/*.fastq.gz 
 ```
 
 Результаты можно посмотреть в папке *kraken_out*. Сами по себе они нам ничего не скажут. 
