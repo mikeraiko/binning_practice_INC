@@ -1,0 +1,36 @@
+Command line: /home/mrayko/mambaforge/bin/spades.py	--meta	-1	/home/mrayko/data/tara_reads_R1.fastq.gz	-2	/home/mrayko/data/tara_reads_R2.fastq.gz	-o	/home/mrayko/data/metaspades_out	
+
+System information:
+  SPAdes version: 3.15.5
+  Python version: 3.10.6
+  OS: Linux-5.15.0-78-generic-x86_64-with-glibc2.35
+
+Output dir: /home/mrayko/data/metaspades_out
+Mode: read error correction and assembling
+Debug mode is turned OFF
+
+Dataset parameters:
+  Metagenomic mode
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/home/mrayko/data/tara_reads_R1.fastq.gz']
+      right reads: ['/home/mrayko/data/tara_reads_R2.fastq.gz']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset will be auto-detected
+  Corrected reads will be compressed
+Assembly parameters:
+  k: [21, 33, 55]
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+Other parameters:
+  Dir for temp files: /home/mrayko/data/metaspades_out/tmp
+  Threads: 16
+  Memory limit (in Gb): 250
+

@@ -1,0 +1,7 @@
+- "left reads":
+  - "/home/mrayko/data/tara_reads_R1.fastq.gz"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/home/mrayko/data/tara_reads_R2.fastq.gz"
+  "type": "paired-end"
