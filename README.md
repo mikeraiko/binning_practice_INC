@@ -25,7 +25,7 @@ conda install -c bioconda spades maxbin2 checkm2
 Сохраняем их в папку *data*. 
 ```
 mkdir data
-cd ~/data
+cd data
 curl -O -J -L https://osf.io/th9z6/download
 curl -O -J -L https://osf.io/k6vme/download
 cd ..
