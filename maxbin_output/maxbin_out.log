@@ -1,0 +1,84 @@
+MaxBin 2.2.7
+Input contig: metaspades_out/scaffolds.fasta
+Located abundance file [abund.txt]
+out header: maxbin_out
+Searching against 107 marker genes to find starting seed contigs for [metaspades_out/scaffolds.fasta]...
+Done data collection. Running MaxBin...
+Command: /home/mrayko/mambaforge/opt/MaxBin-2.2.7/src/MaxBin -fasta maxbin_out.contig.tmp  -abund maxbin_out.contig.tmp.abund1 -seed maxbin_out.seed -out maxbin_out -min_contig_length 1000 
+Done data collection. Running MaxBin...
+Command: /home/mrayko/mambaforge/opt/MaxBin-2.2.7/src/MaxBin -fasta maxbin_out.0008.fasta  -abund maxbin_out.contig.tmp.abund1 -seed maxbin_out.0008.out.seed -out maxbin_out.0008.out -min_contig_length 1000 
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	NODE_1_length_2448466_cov_13.192907 [13.192907]
+	NODE_2_length_1826768_cov_7.756995 [7.756995]
+	NODE_3_length_1060026_cov_15.036044 [15.036044]
+	NODE_4_length_972412_cov_26.294852 [26.294852]
+	NODE_5_length_746793_cov_4.004192 [4.004192]
+	NODE_6_length_655067_cov_29.624398 [29.624398]
+	NODE_37_length_104379_cov_4.161478 [4.161478]
+	NODE_65_length_50367_cov_3.604746 [3.604746]
+	NODE_499_length_4283_cov_2.434721 [2.434721]
+Get 9 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 2 (0.19%)
+Elapsed time:  0 days 00:00:01
+
+Minimum contig length set to 1000.
+Reading seed list...
+Looking for seeds in sequences.
+	NODE_30_length_140453_cov_4.679874 [4.679874]
+	NODE_58_length_62138_cov_3.588937 [3.588937]
+Get 2 seeds.
+
+Start EM process.
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+
+EM finishes successfully.
+
+Classifying sequences based on the EM result.
+Minimum probability for binning: 0.50
+Ignoring 0 bins without any sequences.
+Number of unclassified sequences: 0 (0.00%)
+Elapsed time:  0 days 00:00:00
+
+Deleting intermediate files.
+
+
+========== Job finished ==========
+Yielded 10 bins for contig (scaffold) file metaspades_out/scaffolds.fasta
+
+Here are the output files for this run.
+Please refer to the README file for further details.
+
+Summary file: maxbin_out.summary
+Marker counts: maxbin_out.marker
+Marker genes for each bin: maxbin_out.marker_of_each_gene.tar.gz
+Bin files: maxbin_out.001.fasta - maxbin_out.010.fasta
+Unbinned sequences: maxbin_out.noclass
+
+
+========== Elapsed Time ==========
+0 hours 0 minutes and 43 seconds.
+
