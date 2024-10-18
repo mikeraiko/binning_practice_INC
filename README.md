@@ -9,7 +9,7 @@
 conda create -n binning
 conda activate binning
 conda config --env --set subdir osx-64 # только если у вас Мак с процессором M1/2/3
-mamba install -c bioconda spades maxbin2 checkm2
+conda install -c bioconda spades maxbin2 checkm2
 ```
 Если у вас нет терминала (например, на вашем компьютере установлена только Windows), есть обходной путь:
 - Откройте [Google colab](https://colab.research.google.com/), создайте новый блокнот.
