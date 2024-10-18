@@ -6,11 +6,20 @@
 ## Сперва настроим рабочее окружение
 
 ```
-conda create -n binning python=3.8
+conda create -n binning
 conda activate binning
 conda config --env --set subdir osx-64 # только если у вас Мак с процессором M1/2/3
 mamba install -c bioconda spades maxbin2 checkm2
 ```
+Если у вас нет терминала (например, на вашем компьютере установлена только Windows), есть обходной путь:
+- Откройте [Google colab](https://colab.research.google.com/), создайте новый блокнот.
+- В первой ячейке введите
+```
+!pip install colab-xterm
+%load_ext colabxterm
+%xterm
+```
+Всё, у вас есть терминал, в котором можно работать (правда, медленно и чуть менее удобно)
 
 ## Теперь загрузим исходные данные
 Сохраняем их в папку *data*. 
