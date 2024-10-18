@@ -1,0 +1,12 @@
+# target name        accession  query name           accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#------------------- ---------- -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+#
+# Program:         nhmmer
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/mrayko/mambaforge/checkm_data/hmms_ssu/SSU_euk.hmm
+# Target file:     -
+# Option settings: nhmmer -o ssu_finder_out/ssu.euk.txt --tblout ssu_finder_out/ssu.euk.table.txt --noali -E 1e-05 --cpu 1 /home/mrayko/mambaforge/checkm_data/hmms_ssu/SSU_euk.hmm - 
+# Current dir:     /home/mrayko/data
+# Date:            Thu Oct 17 22:13:54 2024
+# [ok]

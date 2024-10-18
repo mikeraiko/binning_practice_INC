@@ -1,0 +1,42 @@
+# nhmmer :: search a DNA model, alignment, or sequence against a DNA database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query file:                      /home/mrayko/mambaforge/checkm_data/hmms_ssu/SSU_archaea.hmm
+# target sequence database:        -
+# output directed to file:         ssu_finder_out/ssu.archaea.txt
+# hits tabular output:             ssu_finder_out/ssu.archaea.table.txt
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 1e-05
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       archaea  [M=1381]
+Scores for complete hits:
+    E-value  score  bias  Sequence                            start    end  Description
+    ------- ------ -----  --------                            -----  -----  -----------
+    6.8e-10   38.4   2.1  NODE_9_length_630155_cov_26.289291 296795 296979 
+
+
+Annotation for each hit :
+>> NODE_9_length_630155_cov_26.289291  
+    score  bias    Evalue   hmmfrom    hmm to     alifrom    ali to      envfrom    env to       sq len      acc
+   ------ ----- ---------   -------   -------    --------- ---------    --------- ---------    ---------    ----
+ !   38.4   2.1   6.8e-10         9       146 ..    296795    296979 ..    296785    296999 ..    630155    0.90
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (1381 nodes)
+Target sequences:                       2298  (47041932 residues searched)
+Residues passing SSV filter:         1177753  (0.025); expected (0.02)
+Residues passing bias filter:         934068  (0.0199); expected (0.02)
+Residues passing Vit filter:           54667  (0.00116); expected (0.003)
+Residues passing Fwd filter:            2167  (4.61e-05); expected (3e-05)
+Total number of hits:                      1  (3.93e-06)
+# CPU time: 6.73u 0.01s 00:00:06.74 Elapsed: 00:00:06.48
+# Mc/sec: 10013.32
+//
+[ok]

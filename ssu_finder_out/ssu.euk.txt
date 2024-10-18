@@ -1,0 +1,40 @@
+# nhmmer :: search a DNA model, alignment, or sequence against a DNA database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query file:                      /home/mrayko/mambaforge/checkm_data/hmms_ssu/SSU_euk.hmm
+# target sequence database:        -
+# output directed to file:         ssu_finder_out/ssu.euk.txt
+# hits tabular output:             ssu_finder_out/ssu.euk.table.txt
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 1e-05
+# number of worker threads:        1
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       silva.eukarya  [M=1734]
+Scores for complete hits:
+    E-value  score  bias  Sequence  start    end  Description
+    ------- ------ -----  --------  -----  -----  -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Annotation for each hit :
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (1734 nodes)
+Target sequences:                       2298  (47041932 residues searched)
+Residues passing SSV filter:         1239568  (0.0264); expected (0.02)
+Residues passing bias filter:        1119002  (0.0238); expected (0.02)
+Residues passing Vit filter:           40084  (0.000852); expected (0.003)
+Residues passing Fwd filter:               0  (0); expected (3e-05)
+Total number of hits:                      0  (0)
+# CPU time: 8.42u 0.01s 00:00:08.43 Elapsed: 00:00:08.17
+# Mc/sec: 9976.60
+//
+[ok]

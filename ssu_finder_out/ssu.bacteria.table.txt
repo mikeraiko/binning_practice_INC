@@ -1,0 +1,17 @@
+# target name                       accession  query name           accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#               ------------------- ---------- -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+NODE_9_length_630155_cov_26.289291  -          bacteria             -               32     197  296783  296978  296762  296998  630155    +       3e-29  102.6   2.3  -
+NODE_1_length_2448466_cov_13.192907 -          bacteria             -               29     102 2125889 2125962 2125866 2125983 2448466    +     2.1e-14   53.4   0.5  -
+NODE_2_length_1826768_cov_7.756995  -          bacteria             -               35     139  117759  117865  117741  117898 1826768    +     1.4e-13   50.7   1.3  -
+NODE_51_length_81708_cov_3.474067   -          bacteria             -               32     103   18799   18728   18819   18708   81708    -     1.6e-13   50.5   0.9  -
+NODE_8_length_651702_cov_29.616214  -          bacteria             -               36     103  476705  476772  476684  476792  651702    +     1.6e-12   47.2   0.5  -
+#
+# Program:         nhmmer
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/mrayko/mambaforge/checkm_data/hmms_ssu/SSU_bacteria.hmm
+# Target file:     -
+# Option settings: nhmmer -o ssu_finder_out/ssu.bacteria.txt --tblout ssu_finder_out/ssu.bacteria.table.txt --noali -E 1e-05 --cpu 1 /home/mrayko/mambaforge/checkm_data/hmms_ssu/SSU_bacteria.hmm - 
+# Current dir:     /home/mrayko/data
+# Date:            Thu Oct 17 22:13:39 2024
+# [ok]

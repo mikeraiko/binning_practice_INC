@@ -1,0 +1,6 @@
+Bin Id	Seq. Id	HMM	i-Evalue	Start hit	End hit	16S/18S gene length	Rev. Complement	Sequence length
+maxbin_out.001	NODE_8_length_651702_cov_29.616214	bacteria	1.6e-12	476705	476772	67	False	651702
+maxbin_out.002	NODE_9_length_630155_cov_26.289291	bacteria	3e-29	296783	296978	195	False	630155
+maxbin_out.004	NODE_1_length_2448466_cov_13.192907	bacteria	2.1e-14	2125889	2125962	73	False	2448466
+maxbin_out.005	NODE_2_length_1826768_cov_7.756995	bacteria	1.4e-13	117759	117865	106	False	1826768
+maxbin_out.009	NODE_51_length_81708_cov_3.474067	bacteria	1.6e-13	18728	18799	71	True	81708

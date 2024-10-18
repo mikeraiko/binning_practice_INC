@@ -1,0 +1,13 @@
+# target name                      accession  query name           accession  hmmfrom hmm to alifrom  ali to envfrom  env to  sq len strand   E-value  score  bias  description of target
+#              ------------------- ---------- -------------------- ---------- ------- ------- ------- ------- ------- ------- ------- ------ --------- ------ ----- ---------------------
+NODE_9_length_630155_cov_26.289291 -          archaea              -                9     146  296795  296979  296785  296999  630155    +     6.8e-10   38.4   2.1  -
+#
+# Program:         nhmmer
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /home/mrayko/mambaforge/checkm_data/hmms_ssu/SSU_archaea.hmm
+# Target file:     -
+# Option settings: nhmmer -o ssu_finder_out/ssu.archaea.txt --tblout ssu_finder_out/ssu.archaea.table.txt --noali -E 1e-05 --cpu 1 /home/mrayko/mambaforge/checkm_data/hmms_ssu/SSU_archaea.hmm - 
+# Current dir:     /home/mrayko/data
+# Date:            Thu Oct 17 22:13:45 2024
+# [ok]

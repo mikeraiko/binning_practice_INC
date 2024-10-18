@@ -1,0 +1,18 @@
+[2024-10-17 22:13:23] INFO: CheckM v1.2.3
+[2024-10-17 22:13:23] INFO: checkm ssu_finder metaspades_out/scaffolds.fasta maxbin_output/ ssu_finder_out -x fa
+[2024-10-17 22:13:23] INFO: CheckM data: /home/mrayko/mambaforge/checkm_data
+[2024-10-17 22:13:23] INFO: [CheckM - ssu_finder] Identifying SSU (16S/18S) rRNAs in sequences.
+[2024-10-17 22:13:23] ERROR: No bins found. Check the extension (-x) used to identify bins.
+[2024-10-17 22:13:32] INFO: CheckM v1.2.3
+[2024-10-17 22:13:32] INFO: checkm ssu_finder metaspades_out/scaffolds.fasta maxbin_output/ ssu_finder_out -x fasta
+[2024-10-17 22:13:32] INFO: CheckM data: /home/mrayko/mambaforge/checkm_data
+[2024-10-17 22:13:32] INFO: [CheckM - ssu_finder] Identifying SSU (16S/18S) rRNAs in sequences.
+[2024-10-17 22:13:32] INFO: Determining bin assignment of sequences.
+[2024-10-17 22:13:32] INFO: Identifying SSU rRNAs on sequences.
+[2024-10-17 22:13:32] INFO: Identifying bacterial 16S.
+[2024-10-17 22:13:39] INFO: Identifying archaeal 16S.
+[2024-10-17 22:13:45] INFO: Identifying eukaryotic 18S.
+[2024-10-17 22:13:54] INFO: Identified 5 putative SSU genes.
+[2024-10-17 22:13:54] INFO: Summary of identified hits written to: ssu_finder_out/ssu_summary.tsv
+[2024-10-17 22:13:54] INFO: SSU sequences written to: ssu_finder_out/ssu.fna
+[2024-10-17 22:13:54] INFO: { Current stage: 0:00:22.031 || Total: 0:00:22.031 }
